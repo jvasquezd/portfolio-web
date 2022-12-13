@@ -10,7 +10,7 @@
   left: 0;
   width: 100%;
   height: calc(100% - 4rem);
-  background-color: var(--secondary-theme-color);
+  background-color: var(--menu-mobile-background-color);
   transform: translateX(var(--translate-list-header));
   transition: transform 0.25s;
 }
