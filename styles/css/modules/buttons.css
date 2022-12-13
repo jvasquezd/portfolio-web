@@ -2,7 +2,7 @@
   background-color: var(--primary-theme-color);
   border: 0.0625rem solid var(--primary-theme-color);
   border-radius: var(--primary-border-radius);
-  color: var(--primary-text-color);
+  color: var(--reverse-primary-text-color);
   font-family: var(--primary-font-famly);
   font-size: 1rem;
   font-weight: 600;
@@ -18,7 +18,7 @@
 }
 
 .button--primary {
-  background-color: var(--primary-highlight-color);
+  background-color: var(--reverse-primary-shadow-color);
   border: 0.0625rem solid var(--primary-highlight-color);
   color: var(--reverse-primary-text-color);
 }
