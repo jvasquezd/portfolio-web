@@ -1,0 +1,17 @@
+:root{ 
+    scroll-behavior: smooth;
+    --primary-theme-color: #fff;
+    --primary-color: #124f88;
+    --secondary-theme-color: #F7C331;
+    --primary-text-color-inverse:#fff;
+    --primary-text-color:#000;
+    --primary-shadow-color: #e5e5e580;
+    --secondary-shadow-color: #e5e5e540;
+    --primary-font-family: 'Montserrat', sans-serif;
+    --max-width-container: 512px;
+    --padding-section: 1.5rem;
+    --padding-container: 1rem;
+    --primary-border-radius: 0.5rem;
+    --menu-mobile-background-color: #3A4460;
+    --navbar-shadow-color:#e5e5e5;
+}
