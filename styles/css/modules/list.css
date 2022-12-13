@@ -17,14 +17,15 @@
 
 .list__link {
   position: relative;
-  color: var(--primary-text-color);
+  color: var(--reverse-primary-text-color);
   font-weight: 700;
   text-decoration: none;
   transition: color 0.25s;
+  text-transform: uppercase;
 }
 
 .list__link:hover {
-  color: var(--primary-highlight-color)
+  color: var(--reverse-primary-text-color)
 }
 
 .list__link::before {
@@ -48,5 +49,11 @@
     background-color: transparent;
     width: auto;
     height: auto;
+  }
+  .list__link {
+    color: var(--primary-text-color);
+  }
+  .list__link:hover {
+    color: var(--primary-text-color)
   }
 }
