@@ -1,0 +1,5 @@
+:root {
+    scroll-behavior: smooth;
+    /*========== Font and typography ==========*/
+    --primary-font-family: 'Poppins', monospace;
+}
