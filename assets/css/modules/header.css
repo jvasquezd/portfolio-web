@@ -1,9 +1,9 @@
 .header {
     position: fixed;
+    width: 100%;
     z-index: 1;
     top: 0;
     left: 0;
-    width: 100%;
     background-color: var(--body-color);
-    box-shadow: 0 0 0.125rem 0.125rem var(--first-color);
+    box-shadow: 0 0 0.125rem 0.125rem var(--first-shadow-color);
 }

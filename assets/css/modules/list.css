@@ -24,7 +24,7 @@
 }
 
 .list__link:hover {
-    color: var(--title-color)
+    color: var(--title-color-highlight)
 }
 
 .list__link::before {
@@ -34,7 +34,7 @@
     bottom: -0.125rem;
     width: 0;
     height: 0.0625rem;
-    background-color: var(--first-color-second);
+    background-color: var(--second-color-lighter);
     transition: width 0.25s;
 }
 

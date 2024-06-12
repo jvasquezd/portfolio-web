@@ -10,10 +10,6 @@
     padding: 0.25em 1em;
     cursor: pointer;
     transition: box-shadow 0.25s, filter 0.25s;
-    -webkit-border-radius: var(--primary-border-radius);
-    -moz-border-radius: var(--primary-border-radius);
-    -ms-border-radius: var(--primary-border-radius);
-    -o-border-radius: var(--primary-border-radius);
 }
 
 .button:hover {
@@ -24,7 +20,7 @@
 .button--primary {
     background-color: var(--first-color-lighter);
     border: 0.0625rem solid var(--first-color-lighter);
-    color: var(--title-color);
+    color: var(--text-color-reverse);
 }
 
 .button--primary:hover {
@@ -32,13 +28,13 @@
 }
 
 .button--secondary {
-    background-color: var(--button-color);
-    border: 0.0625rem solid var(--button-color);
-    color: var(--title-color);
+    background-color: var(--second-color);
+    border: 0.0625rem solid var(--second-color);
+    color: var(--text-color-reverse);
 }
 
 .button--secondary:hover {
-    box-shadow: 0 0 0.25rem 0.0625rem var(--primary-button-color);
+    box-shadow: 0 0 0.25rem 0.0625rem var(--first-color);
 }
 
 .button--outline-primary {
@@ -52,9 +48,9 @@
 
 .button--outline-secondary {
     background-color: transparent;
-    border: 0.0625rem solid var(--button-color);
+    border: 0.0625rem solid var(--second-color);
 }
 
 .button--outline-secondary:hover {
-    box-shadow: 0 0 0.25rem 0 var(--button-color);
+    box-shadow: 0 0 0.25rem 0 var(--second-color);
 }
