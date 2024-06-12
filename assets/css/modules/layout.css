@@ -53,6 +53,10 @@
     grid-template-columns: 100%;
 }
 
+.g-elements--skills {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 @media (min-width: 768px) {
     .f-elements--responsive {
         flex-direction: row;
@@ -63,5 +67,8 @@
     .g-elements--gallery {
         grid-template-columns: repeat(3, 1fr);
         /* 1fr 1fr 1fr */
+    }
+    .g-elements--skills {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
